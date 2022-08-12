@@ -52,11 +52,13 @@ atleta = 1.9
 if ex =='sedentario':
 
     const1 = 1.2
+    
     print('Seu Gasto Energético total é: {:.1f}'.format(result*const1))
 
 if ex =='leve':
 
     const1 = 1.375
+    
     print('Seu Gasto Energético Total é {:.1f}'.format(result*const1))
 
 if ex == 'moderado':
